@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scrolling</title>
+
+    <link rel="stylesheet" href="style.css"/>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <!-- <h1>&lt;/SV&gt;</h1> -->
+         <span class="logo"><img src="images/logo.png"></span>
+        <nav>
+            <a href="" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#learning">Learned</a>
+        </nav>
+    </header>
+
+    <section class="parallax">
+        <img src="images/hill1.png" id="hill1">
+        <img src="images/hill2.png">
+        <img src="images/hill3.png">
+        <img src="images/hill4.png" id="hill2">
+        <img src="images/hill5.png" id="hill3">
+
+        <img src="images/tree.png" id="tree">
+        <img src="images/leaf.png" id="leaf">
+        <h2 id="title">Parallax Website</h2>
+        <img src="images/plant.png" id="plant">
+    </section>
+
+    <section id="about">
+    <h2>About This Project</h2>
+
+    <p>
+        This parallax website started as a tutorial project and became an
+        opportunity to explore scroll-based animations and interactive design.
+        Building it helped me understand how JavaScript, HTML, and CSS work
+        together to create engaging user experiences.
+    </p>
+
+    <br>
+
+    <p>
+        While developing this project, I experimented with layered elements,
+        DOM manipulation, and animation techniques to better understand how
+        parallax effects are implemented. I also gained hands-on experience
+        with responsive layouts and problem-solving through debugging and
+        customization.
+    </p>
+
+    <br>
+
+    <p>
+        More importantly, this project taught me that tutorials are just a
+        starting point. By modifying and extending the original idea, I was
+        able to make it my own while continuing to grow as a frontend developer.
+    </p>
+    </section>
+
+    <section id="learning">
+    <h2>What I Learned</h2>
+
+    <div class="learning-list">
+        <div>✓ Scroll Event Handling</div>
+        <div>✓ Parallax Techniques</div>
+        <div>✓ DOM Manipulation</div>
+        <div>✓ CSS Transforms</div>
+        <div>✓ Responsive Design</div>
+    </div>
+    </section>
+
+    <footer>
+        <p>&#169; <span id="year"></span> Sneha Vaghela • Frontend Developer in Progress</p>
+    </footer>
+</body>
+</html>
